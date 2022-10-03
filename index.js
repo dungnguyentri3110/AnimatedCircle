@@ -12,5 +12,6 @@ import StackScrollView from './StackScrollView';
 import Slider from './Slider';
 import Chapter from './Chapter';
 import AnimatedBottomNavigationBar from './AnimatedBottomNavigationBar';
+import AnimatedSnapScroll from './animatedSnapScroll/AnimatedSnapScroll';
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => AnimatedSnapScroll);
